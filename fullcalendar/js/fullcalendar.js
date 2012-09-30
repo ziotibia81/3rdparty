@@ -2092,6 +2092,7 @@ setDefaults({
 	weekMode: 'fixed'
 });
 
+fcViews.basic = BasicView;
 
 function BasicView(element, calendar, viewName) {
 	var t = this;
