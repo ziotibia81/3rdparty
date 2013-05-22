@@ -10,8 +10,8 @@ use Sabre\VObject;
  *
  * @package Sabre
  * @subpackage CalDAV
- * @copyright Copyright (C) 2007-2013 Rooftop Solutions. All rights reserved.
- * @author Evert Pot (http://www.rooftopsolutions.nl/)
+ * @copyright Copyright (C) 2007-2013 fruux GmbH (https://fruux.com/).
+ * @author Evert Pot (http://evertpot.com/)
  * @license http://code.google.com/p/sabredav/wiki/License Modified BSD License
  */
 class Sabre_CalDAV_Plugin extends Sabre_DAV_ServerPlugin {
@@ -1252,7 +1252,7 @@ class Sabre_CalDAV_Plugin extends Sabre_DAV_ServerPlugin {
 
         }
 
-        $vcalendar = VObject\Component::create('VCALENDAR');
+        $vcalendar = new Sabre\VObject\Component\VCalendar();
         $vcalendar->VERSION = '2.0';
         $vcalendar->METHOD = 'REPLY';
         $vcalendar->CALSCALE = 'GREGORIAN';
