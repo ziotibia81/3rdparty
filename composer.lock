@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f85fb7506450c428b9df1fd7e012242",
+    "hash": "c67d05128b491625e258ed113a665687",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -705,6 +705,50 @@
             "time": "2014-01-28 22:14:17"
         },
         {
+            "name": "hautelook/phpass",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hautelook/phpass.git",
+                "reference": "09463d13a673999f3432461e5dbde535766901da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hautelook/phpass/zipball/09463d13a673999f3432461e5dbde535766901da",
+                "reference": "09463d13a673999f3432461e5dbde535766901da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hautelook": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Public Domain"
+            ],
+            "authors": [
+                {
+                    "name": "Solar Designer",
+                    "email": "solar@openwall.com",
+                    "homepage": "http://openwall.com/phpass/"
+                }
+            ],
+            "description": "Portable PHP password hashing framework",
+            "homepage": "http://github.com/hautelook/phpass/",
+            "keywords": [
+                "blowfish",
+                "crypt",
+                "password",
+                "security"
+            ],
+            "time": "2014-07-18 03:04:01"
+        },
+        {
             "name": "ircmaxell/random-lib",
             "version": "v1.0.0",
             "source": {
@@ -916,7 +960,7 @@
                 "reference": "master"
             },
             "type": "library",
-            "time": "2014-11-03 15:42:46"
+            "time": "2014-11-03 16:02:50"
         },
         {
             "name": "mrclay/minify",
@@ -1860,7 +1904,8 @@
         "james-heinrich/getid3": 20,
         "natxet/cssmin": 20,
         "mrclay/minify": 20,
-        "pear/pear_exception": 20
+        "pear/pear_exception": 20,
+        "hautelook/phpass": 20
     },
     "prefer-stable": false,
     "platform": [],

@@ -46,4 +46,10 @@ pimple/pimple/phpunit.xml.dist
 pimple/pimple/README.rst
 pimple/pimple/src/Pimple/Tests
 
+hautelook/phpass/lib
+hautelook/phpass/Tests
+hautelook/phpass/.gitignore
+hautelook/phpass/.travis.yml
+
+
 
